@@ -21,7 +21,7 @@ const Heaser = () => {
               <li><a>Item 3</a></li>
             </ul>
           </div>
-          <Link to="/"><a className="btn btn-ghost normal-case text-xl">daisyUI</a></Link>
+          <Link to="/"><h1>LOGO</h1></Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -39,7 +39,7 @@ const Heaser = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <Link to="/Login"><a className="btn">Login</a></Link>
+          <Link to="/Login"><h3>Login</h3></Link>
         </div>
       </div>
     );
