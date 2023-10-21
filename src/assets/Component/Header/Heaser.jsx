@@ -38,8 +38,9 @@ const Heaser = () => {
             <li><a>Item 3</a></li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <Link to="/Login"><h3>Login</h3></Link>
+        <div className="navbar-end gap-5">
+          <Link to="/Login"><h3 className="text-2xl font-medium text-green-400">Login</h3></Link>
+          <Link to="/singup"><h3 className="text-2xl font-medium text-green-400">Sing UP</h3></Link>
         </div>
       </div>
     );

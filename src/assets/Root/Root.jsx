@@ -3,6 +3,7 @@ import MainPage from "./MainPage";
 import ErrorPage from "./ErrorPage";
 import Home from "../Component/Home/Home";
 import Login from "../Component/Login/Login";
+import SingUp from "../Component/singUp/singUp";
 
     const router = createBrowserRouter([
         {
@@ -17,6 +18,10 @@ import Login from "../Component/Login/Login";
             {
                 path:"/Login",
                 element:<Login></Login>
+            },
+            {
+                path:"/singup",
+                element:<SingUp></SingUp>
             }
           ]
         },
